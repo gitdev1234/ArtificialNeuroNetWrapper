@@ -12,16 +12,17 @@
 
 /**
  * ArtificialNeuroNetWrapper::ArtificialNeuroNetWrapper
- * @brief constructor of ANN-wrapper class, initializes LogWriter
+ * @brief constructor of ANN-wrapper class, initializes LogWriter and ANN-objects
+ *
  */
 ArtificialNeuroNetWrapper::ArtificialNeuroNetWrapper() {
-    // create LogWriter-object
+    // create and initialize LogWriter-object
     log = LogWriter("ArtificialNeuroNetWrapper", PATH_OF_LOGFILE);
-
     log << SLevel(INFO) << "Initialized ArtificialNeuroNetWrapper" << endl;
 
-    AirTemperature2MForecast.init("AirTemperature2M");
-          Humidity2MForecast.init("Humidity2M");
+    // initialize ANN-objects
+    AirTemperature2MForecast.init("AirTemperature2MForecast");
+          Humidity2MForecast.init("Humidity2MForecast");
 }
 
 /* --- train neuro nets --- */
@@ -49,7 +50,6 @@ void ArtificialNeuroNetWrapper::trainArtificialNeuroNets() {
  * @return returns DataBuffer which contains all outputs of all neuro nets inside this class
  */
 DataBuffer ArtificialNeuroNetWrapper::calculateOutput() {
-    log << SLevel(INFO) << "Successfully calculated ouptut of Artificial Neuro Net for Temperature 2m" << endl;
     DataBuffer result;
 
     // --- TODO -- dummy code ---
