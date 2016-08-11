@@ -3,13 +3,14 @@
  * Purpose: defines class ArtificialNeuroNetWrapper
  *
  * @author Wall.Of.Death
- * @version 1.0 20160704
+ * @version 1.0 20160811
  */
 
 #ifndef ARTIFICIALNEURONETWRAPPER_H
 #define ARTIFICIALNEURONETWRAPPER_H
 
 #include "DataBuffer.h"
+#include "ArtificialNeuroNet.h"
 #include "logwriter.h"
 #include "config.h"
 
@@ -34,6 +35,10 @@ class ArtificialNeuroNetWrapper {
         /* --- calculate forecast outputs --- */
         DataBuffer calculateOutput();
     private:
+        /* --- ANNs --- */
+        ArtificialNeuroNet AirTemperature2MForecast;
+        ArtificialNeuroNet Humidity2MForecast;
+
         /* --- miscellaneous --- */
         LogWriter log;
 };

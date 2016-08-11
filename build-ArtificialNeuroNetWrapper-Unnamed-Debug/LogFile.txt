@@ -4,3 +4,6 @@
 11/08/16-15:09:56 - INFO      - ArtificialNeuroNetWrapper - Initialized ArtificialNeuroNetWrapper
 11/08/16-15:09:56 - INFO      - ArtificialNeuroNetWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
 11/08/16-15:09:56 - INFO      - ArtificialNeuroNetWrapper - Successfully calculated ouptut of Artificial Neuro Net for Temperature 2m
+11/08/16-15:24:08 - INFO      - ArtificialNeuroNetWrapper - Initialized ArtificialNeuroNetWrapper
+11/08/16-15:24:08 - INFO      - ArtificialNeuroNetWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+11/08/16-15:24:08 - INFO      - ArtificialNeuroNetWrapper - Successfully calculated ouptut of Artificial Neuro Net for Temperature 2m

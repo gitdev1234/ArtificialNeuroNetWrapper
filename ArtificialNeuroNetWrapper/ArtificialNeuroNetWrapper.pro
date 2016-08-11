@@ -22,11 +22,14 @@ SOURCES += main.cpp \
     src/ArtificialNeuroNetWrapper.cpp \
     src/DataBuffer.cpp \
     src/logwriter.cpp \
-    src/slevel.cpp
+    src/slevel.cpp \
+    src/ArtificialNeuroNet.cpp
 
 HEADERS += \
     include/ArtificialNeuronetWrapper.h \
     include/DataBuffer.h \
     include/logwriter.h \
     include/slevel.h \
-    include/config.h
+    include/config.h \
+    include/ArtificialNeuroNet.h \
+    include/ArtificialNeuroNetWrapper.h

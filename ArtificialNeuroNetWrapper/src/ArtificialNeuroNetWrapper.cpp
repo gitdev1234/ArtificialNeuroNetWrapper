@@ -3,21 +3,28 @@
  * Purpose: implements class ArtificialNeuroNetWrapper
  *
  * @author Wall.Of.Death
- * @version 1.0 20160704
+ * @version 1.0 20160811
  */
 
-#include "include/ArtificialNeuronetWrapper.h"
+#include "ArtificialNeuroNetWrapper.h"
+
+/* --- constructor / destructor --- */
 
 /**
  * ArtificialNeuroNetWrapper::ArtificialNeuroNetWrapper
- * @brief constructor of ann wrapper class, initializes LogWriter
+ * @brief constructor of ANN-wrapper class, initializes LogWriter
  */
 ArtificialNeuroNetWrapper::ArtificialNeuroNetWrapper() {
     // create LogWriter-object
     log = LogWriter("ArtificialNeuroNetWrapper", PATH_OF_LOGFILE);
 
     log << SLevel(INFO) << "Initialized ArtificialNeuroNetWrapper" << endl;
+
+    AirTemperature2MForecast.init("AirTemperature2M");
+          Humidity2MForecast.init("Humidity2M");
 }
+
+/* --- train neuro nets --- */
 
 /**
  * ArtificialNeuroNetWrapper::trainArtificialNeuroNets
@@ -25,7 +32,16 @@ ArtificialNeuroNetWrapper::ArtificialNeuroNetWrapper() {
  */
 void ArtificialNeuroNetWrapper::trainArtificialNeuroNets() {
     log << SLevel(INFO) << "Successfully trained Artificial Neuro Net for Temperature 2m" << endl;
+
+    // --- TODO -- dummy code ---
+    vector< vector<double> > inputValues;
+    vector<double> expectedOutputValues;
+    AirTemperature2MForecast.train(inputValues,expectedOutputValues);
+          Humidity2MForecast.train(inputValues,expectedOutputValues);
+    // --- TODO -- dummy code ---
 }
+
+/* --- calculate forecast outputs --- */
 
 /**
  * ArtificialNeuroNetWrapper::calculateOutput
@@ -35,7 +51,12 @@ void ArtificialNeuroNetWrapper::trainArtificialNeuroNets() {
 DataBuffer ArtificialNeuroNetWrapper::calculateOutput() {
     log << SLevel(INFO) << "Successfully calculated ouptut of Artificial Neuro Net for Temperature 2m" << endl;
     DataBuffer result;
-    result.data["ANN_Lufttemperatur2M"] = (rand() % 20);
-    result.data["ANN_Luftdruck2M"] = (rand() % 400) + 800;
+
+    // --- TODO -- dummy code ---
+    vector<double> inputValues;
+    result.data["AirTemperature2MForecast"] = AirTemperature2MForecast.forward(inputValues)[0];
+    result.data[      "Humidity2MForecast"] =       Humidity2MForecast.forward(inputValues)[0];
+    // --- TODO -- dummy code ---
+
     return result;
 }
