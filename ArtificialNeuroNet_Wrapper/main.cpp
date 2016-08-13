@@ -1,16 +1,16 @@
 #include <iostream>
-#include "ArtificialNeuroNetWrapper.h"
+#include "ANNWrapper.h"
 #include "DataBuffer.h"
 
 using namespace std;
 
 int main() {
-    ArtificialNeuroNetWrapper ANNWrapper;
+    ANNWrapper ANNWrap;
     // train
-    ANNWrapper.trainArtificialNeuroNets();
+    ANNWrap.trainArtificialNeuroNets();
 
     // calc forecast
-    DataBuffer OptimizedForecast = ANNWrapper.calculateOutput();
+    DataBuffer OptimizedForecast = ANNWrap.calculateOutput();
     cout << "Optimized Output : " << endl << OptimizedForecast << endl;
     return 0;
 }

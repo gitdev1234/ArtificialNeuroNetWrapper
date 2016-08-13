@@ -1,0 +1,6 @@
+13/08/16-13:10:49 - INFO      - ANNWrapper - Initialized ANNWrapper
+13/08/16-13:10:49 - INFO      - ArtificialNeuroNet : AirTemperature2MForecast - Initialized ArtificialNeuroNet with name of AirTemperature2MForecast.
+13/08/16-13:10:49 - INFO      - ArtificialNeuroNet : Humidity2MForecast - Initialized ArtificialNeuroNet with name of Humidity2MForecast.
+13/08/16-13:10:49 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+13/08/16-13:10:49 - INFO      - ArtificialNeuroNet : AirTemperature2MForecast - successfully trained artificial neural net with 0 training samples.
+13/08/16-13:10:49 - INFO      - ArtificialNeuroNet : Humidity2MForecast - successfully trained artificial neural net with 0 training samples.

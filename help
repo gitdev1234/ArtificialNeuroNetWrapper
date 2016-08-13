@@ -1,0 +1,5 @@
+https://github.com/BVLC/caffe/blob/master/src/caffe/test/test_hdf5data_layer.cpp
+https://github.com/BVLC/caffe/blob/master/src/caffe/test/test_data/generate_sample_data.py
+
+# set up a caffe project in eclipse
+http://tzutalin.blogspot.de/2015/05/caffe-on-ubuntu-eclipse-cc.html

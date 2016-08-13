@@ -8,7 +8,7 @@ QT       += core
 
 QT       -= gui
 
-TARGET = ArtificialNeuroNetWrapper
+TARGET = ArtificialNeuroNet_Wrapper
 CONFIG   += console
 CONFIG   -= app_bundle
 CONFIG   += c++11
@@ -19,17 +19,16 @@ INCLUDEPATH += include/
 
 
 SOURCES += main.cpp \
-    src/ArtificialNeuroNetWrapper.cpp \
     src/DataBuffer.cpp \
     src/logwriter.cpp \
     src/slevel.cpp \
-    src/ArtificialNeuroNet.cpp
+    src/ArtificialNeuroNet.cpp \
+    src/ANNWrapper.cpp
 
 HEADERS += \
-    include/ArtificialNeuronetWrapper.h \
     include/DataBuffer.h \
     include/logwriter.h \
     include/slevel.h \
     include/config.h \
     include/ArtificialNeuroNet.h \
-    include/ArtificialNeuroNetWrapper.h
+    include/ANNWrapper.h
