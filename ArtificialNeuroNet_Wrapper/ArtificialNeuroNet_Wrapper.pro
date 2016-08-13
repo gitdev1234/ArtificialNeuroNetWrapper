@@ -16,19 +16,20 @@ CONFIG   += c++11
 TEMPLATE = app
 
 INCLUDEPATH += include/
+INCLUDEPATH += ../include/
 
 
 SOURCES += main.cpp \
     src/DataBuffer.cpp \
-    src/logwriter.cpp \
-    src/slevel.cpp \
     src/ArtificialNeuroNet.cpp \
-    src/ANNWrapper.cpp
+    src/ANNWrapper.cpp \
+    src/LogWriter.cpp \
+    src/SLevel.cpp
 
 HEADERS += \
     include/DataBuffer.h \
-    include/logwriter.h \
-    include/slevel.h \
-    include/config.h \
     include/ArtificialNeuroNet.h \
-    include/ANNWrapper.h
+    include/ANNWrapper.h \
+    include/Config.h \
+    include/LogWriter.h \
+    include/SLevel.h

@@ -11,8 +11,8 @@
 
 #include "DataBuffer.h"
 #include "ArtificialNeuroNet.h"
-#include "logwriter.h"
-#include "config.h"
+#include "LogWriter.h"
+#include "Config.h"
 
 /**
  * The ANNWrapper class

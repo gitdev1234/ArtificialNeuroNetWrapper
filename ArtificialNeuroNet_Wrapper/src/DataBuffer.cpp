@@ -6,7 +6,7 @@
  * @version 1.0 20160704
  */
 
-#include "../include/DataBuffer.h"
+#include "DataBuffer.h"
 
 /**
  * operator <<

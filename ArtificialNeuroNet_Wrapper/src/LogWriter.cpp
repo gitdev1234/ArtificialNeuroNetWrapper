@@ -1,12 +1,12 @@
 /**
- * logwriter.cpp
+ * LogWriter.cpp
  * Purpose: implements class LogWriter
  *
  * @author Wall.Of.Death
  * @version 1.0 20160629
  */
 
-#include "../include/logwriter.h"
+#include "LogWriter.h"
 
 using namespace std;
 
