@@ -16,3 +16,39 @@
 15/08/16-13:41:27 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
 15/08/16-13:41:27 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
 15/08/16-13:41:27 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-13:43:54 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-13:43:54 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-13:43:54 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-13:43:54 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-13:43:54 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-13:43:54 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-13:45:33 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-13:45:33 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-13:45:33 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-13:45:33 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-13:45:33 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-13:45:33 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-13:45:46 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-13:45:46 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-13:45:46 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-13:45:46 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-13:45:46 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-13:45:46 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-13:46:27 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-13:46:27 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-13:46:27 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-13:46:27 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-13:46:27 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-13:46:27 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-13:46:30 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-13:46:30 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-13:46:30 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-13:46:30 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-13:46:30 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-13:46:30 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-13:46:32 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-13:46:32 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-13:46:32 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-13:46:32 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-13:46:32 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-13:46:32 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.

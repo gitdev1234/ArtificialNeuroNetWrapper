@@ -54,8 +54,8 @@ DataBuffer ANNWrapper::calculateOutput() {
 
     // --- TODO -- dummy code ---
     vector<double> inputValues;
-    result.data["ANNTemperature"] = ANNTemperature.forward(inputValues)[0];
-    result.data["ANNAirPressure"] = ANNAirPressure.forward(inputValues)[0];
+    result.data["ANNTemperature"] = ANNTemperature.forward(inputValues);
+    result.data["ANNAirPressure"] = ANNAirPressure.forward(inputValues);
     // --- TODO -- dummy code ---
 
     return result;

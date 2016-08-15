@@ -9,6 +9,10 @@ int main() {
     // train
     ANNWrap.trainArtificialNeuroNets();
 
+    // --- TODO -- dummy code ---
+    srand(time(NULL));
+    // --- TODO -- dummy code ---
+
     // calc forecast
     DataBuffer OptimizedForecast = ANNWrap.calculateOutput();
     cout << "Optimized Output : " << endl << OptimizedForecast << endl;
