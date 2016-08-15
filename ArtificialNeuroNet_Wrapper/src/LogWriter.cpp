@@ -6,7 +6,7 @@
  * @version 1.0 20160629
  */
 
-#include "LogWriter.h"
+#include "../include/LogWriter.h"
 
 using namespace std;
 

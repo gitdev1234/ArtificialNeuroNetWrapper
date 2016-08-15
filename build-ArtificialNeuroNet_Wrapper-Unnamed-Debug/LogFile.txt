@@ -52,3 +52,405 @@
 15/08/16-13:46:32 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
 15/08/16-13:46:32 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
 15/08/16-13:46:32 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-16:52:48 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-16:52:48 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-16:52:48 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-16:52:48 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-16:53:49 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-16:53:49 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-16:53:49 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-16:53:49 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-16:53:49 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-16:53:49 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-16:53:49 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-16:53:49 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-16:53:49 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-16:53:49 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-16:56:01 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-16:56:01 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-16:56:01 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-16:56:01 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-16:56:01 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-16:56:01 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-16:56:01 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-16:56:01 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-16:56:01 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-16:56:01 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-16:56:01 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-16:56:49 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-16:56:49 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-16:56:49 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-16:56:49 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-16:56:49 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-16:56:49 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-16:56:49 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-16:56:49 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-16:56:49 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-16:56:49 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-16:56:49 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-17:00:30 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-17:00:30 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-17:00:30 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-17:00:30 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-17:00:30 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-17:00:30 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-17:00:30 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-17:00:30 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-17:00:30 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-17:00:30 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-17:00:30 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-17:00:30 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-17:00:57 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-17:00:57 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-17:00:57 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-17:00:57 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-17:00:57 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-17:00:57 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-17:00:57 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-17:00:57 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-17:00:57 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-17:00:57 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-17:00:57 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-17:00:57 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-17:06:03 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-17:06:04 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-17:06:04 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-17:06:04 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-17:06:04 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-17:06:04 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-17:06:04 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-17:06:04 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-17:06:04 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-17:06:04 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-17:06:04 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-17:06:04 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-17:34:07 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-17:34:07 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-17:34:07 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-17:34:07 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-17:34:07 - ERROR     - ArtificialNeuroNet : ANNTemperature - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-17:34:07 - ERROR     - ArtificialNeuroNet : ANNAirPressure - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-17:34:08 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-17:34:08 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-17:34:08 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-17:34:08 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-17:34:08 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-17:34:08 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-17:34:08 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-17:34:08 - ERROR     - ArtificialNeuroNet : test ann - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-17:34:09 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-17:35:30 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-17:35:30 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-17:35:30 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-17:35:30 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-17:35:30 - ERROR     - ArtificialNeuroNet : ANNTemperature - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-17:35:30 - ERROR     - ArtificialNeuroNet : ANNAirPressure - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-17:35:31 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-17:35:31 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-17:35:31 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-17:35:31 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-17:35:31 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-17:35:31 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-17:35:31 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-17:35:31 - ERROR     - ArtificialNeuroNet : test ann - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-17:35:31 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-17:35:46 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-17:35:46 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-17:35:46 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-17:35:46 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-17:35:46 - ERROR     - ArtificialNeuroNet : ANNTemperature - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-17:35:47 - ERROR     - ArtificialNeuroNet : ANNAirPressure - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-17:35:47 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-17:35:47 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-17:35:47 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-17:35:47 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-17:35:47 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-17:35:47 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-17:35:47 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-17:35:47 - ERROR     - ArtificialNeuroNet : test ann - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-17:35:47 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-17:40:46 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-17:40:46 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-17:40:46 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-17:40:46 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-17:40:46 - ERROR     - ArtificialNeuroNet : ANNTemperature - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-17:40:46 - ERROR     - ArtificialNeuroNet : ANNAirPressure - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-17:40:46 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-17:40:46 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-17:40:46 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-17:40:46 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-17:40:46 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-17:40:46 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-17:40:46 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-17:40:46 - ERROR     - ArtificialNeuroNet : test ann - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-17:40:47 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-17:41:41 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-17:41:41 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-17:41:41 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-17:41:41 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-17:41:42 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-17:41:42 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-17:41:42 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-17:41:42 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-17:41:42 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-17:41:42 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-17:41:42 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-17:41:42 - ERROR     - ArtificialNeuroNet : test ann - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-17:41:42 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-18:42:51 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-18:42:51 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-18:42:51 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-18:42:51 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-18:42:51 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-18:42:51 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-18:42:51 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-18:42:51 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-18:42:51 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-18:42:51 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-18:42:51 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-18:42:51 - ERROR     - ArtificialNeuroNet : test ann - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-18:42:52 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-18:42:52 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-18:42:52 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-18:46:15 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-18:46:15 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-18:46:15 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-18:46:15 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-18:46:15 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-18:46:15 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-18:46:15 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-18:46:15 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-18:46:15 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-18:46:15 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-18:46:15 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-18:46:15 - ERROR     - ArtificialNeuroNet : test ann - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-18:46:16 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-18:46:16 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-18:48:48 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-18:48:49 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-18:48:49 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-18:48:49 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-18:48:49 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-18:48:49 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-18:48:49 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-18:48:49 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-18:48:49 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-18:48:49 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-18:48:49 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-18:48:49 - ERROR     - ArtificialNeuroNet : test ann - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-18:48:49 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-18:48:49 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-18:51:30 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-18:51:30 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-18:51:30 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-18:51:30 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-18:51:31 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-18:51:31 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-18:51:31 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-18:51:31 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-18:51:31 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-18:51:31 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-18:51:31 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-18:51:31 - ERROR     - ArtificialNeuroNet : test ann - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-18:51:31 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-18:51:31 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-18:51:31 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-18:54:26 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-18:54:27 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-18:54:27 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-18:54:27 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-18:54:27 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-18:54:27 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-18:54:27 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-18:54:27 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-18:54:27 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-18:54:27 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-18:54:27 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-18:54:27 - ERROR     - ArtificialNeuroNet : test ann - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-18:54:27 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-18:54:27 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-18:54:27 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:51:31 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-19:51:31 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-19:51:31 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-19:51:31 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-19:51:31 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-19:51:31 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-19:51:31 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-19:51:31 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-19:51:31 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-19:51:31 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-19:51:32 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:51:32 - ERROR     - ArtificialNeuroNet : test ann - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-19:51:32 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:51:32 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:51:32 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:52:16 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-19:52:16 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-19:52:16 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-19:52:16 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-19:52:37 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-19:52:37 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-19:52:37 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-19:52:37 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-19:52:37 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-19:52:37 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-19:52:38 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:52:38 - ERROR     - ArtificialNeuroNet : test ann - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-19:52:38 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:58:30 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-19:58:30 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-19:58:30 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-19:58:30 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-19:58:30 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-19:58:30 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-19:58:30 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-19:58:30 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-19:58:30 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-19:58:30 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-19:58:30 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:58:30 - ERROR     - ArtificialNeuroNet : test ann - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-19:58:30 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:58:30 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:58:30 - INFO      - ArtificialNeuroNet : test ann - successfully trained artificial neural net with 0 training samples.
+15/08/16-19:58:30 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:58:30 - INFO      - ArtificialNeuroNet : test ann - successfully trained artificial neural net with 1 training samples.
+15/08/16-19:58:31 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:58:31 - INFO      - ArtificialNeuroNet : test ann - successfully trained artificial neural net with 2 training samples.
+15/08/16-19:58:31 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:58:59 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-19:58:59 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-19:58:59 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-19:58:59 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-19:58:59 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-19:58:59 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-19:58:59 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-19:58:59 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-19:58:59 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-19:58:59 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-19:58:59 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:58:59 - ERROR     - ArtificialNeuroNet : test ann - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-19:59:00 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:59:00 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:59:00 - INFO      - ArtificialNeuroNet : test ann - successfully trained artificial neural net with 0 training samples.
+15/08/16-19:59:00 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:59:00 - INFO      - ArtificialNeuroNet : test ann - successfully trained artificial neural net with 1 training samples.
+15/08/16-19:59:13 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-19:59:13 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-19:59:13 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-19:59:13 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-19:59:13 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-19:59:13 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-19:59:13 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-19:59:13 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-19:59:13 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-19:59:13 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-19:59:13 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:59:13 - ERROR     - ArtificialNeuroNet : test ann - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-19:59:14 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:59:14 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:59:14 - INFO      - ArtificialNeuroNet : test ann - successfully trained artificial neural net with 0 training samples.
+15/08/16-19:59:14 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:59:14 - INFO      - ArtificialNeuroNet : test ann - successfully trained artificial neural net with 1 training samples.
+15/08/16-19:59:33 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-19:59:33 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-19:59:33 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-19:59:33 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-19:59:33 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-19:59:33 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-19:59:33 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-19:59:33 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-19:59:33 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-19:59:33 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
+15/08/16-19:59:33 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:59:33 - ERROR     - ArtificialNeuroNet : test ann - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-19:59:33 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:59:33 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:59:33 - INFO      - ArtificialNeuroNet : test ann - successfully trained artificial neural net with 0 training samples.
+15/08/16-19:59:34 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-19:59:34 - INFO      - ArtificialNeuroNet : test ann - successfully trained artificial neural net with 1 training samples.
+15/08/16-20:06:19 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-20:06:19 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-20:06:19 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-20:06:19 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-20:06:19 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-20:06:19 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-20:06:19 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-20:06:19 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-20:06:19 - ERROR     - ArtificialNeuroNet : ANNTemperature - Aborted train because of invalid input-values or expected outputValues. (Probably empty vectors or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-20:06:19 - ERROR     - ArtificialNeuroNet : ANNAirPressure - Aborted train because of invalid input-values or expected outputValues. (Probably empty vectors or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-20:06:20 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-20:06:20 - ERROR     - ArtificialNeuroNet : test ann - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-20:06:20 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-20:06:20 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-20:06:20 - ERROR     - ArtificialNeuroNet : test ann - Aborted train because of invalid input-values or expected outputValues. (Probably empty vectors or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-20:06:20 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-20:06:20 - INFO      - ArtificialNeuroNet : test ann - successfully trained artificial neural net with 1 training samples.
+15/08/16-20:07:00 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-20:07:01 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-20:07:01 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-20:07:01 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-20:07:01 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-20:07:01 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-20:07:01 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-20:07:01 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-20:07:01 - ERROR     - ArtificialNeuroNet : ANNTemperature - Aborted train because of invalid input-values or expected outputValues. (Probably empty vectors or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-20:07:01 - ERROR     - ArtificialNeuroNet : ANNAirPressure - Aborted train because of invalid input-values or expected outputValues. (Probably empty vectors or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-20:07:01 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-20:07:01 - ERROR     - ArtificialNeuroNet : test ann - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-20:07:02 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-20:07:02 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-20:07:02 - ERROR     - ArtificialNeuroNet : test ann - Aborted train because of invalid input-values or expected outputValues. (Probably empty vectors or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-20:07:02 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-20:07:02 - INFO      - ArtificialNeuroNet : test ann - successfully trained artificial neural net with 1 training samples.
+15/08/16-20:08:39 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-20:08:39 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-20:08:39 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-20:08:39 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-20:08:39 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-20:08:39 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-20:08:39 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-20:08:39 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-20:08:39 - ERROR     - ArtificialNeuroNet : ANNTemperature - Aborted train because of invalid input-values or expected outputValues. (Probably empty vectors or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-20:08:39 - ERROR     - ArtificialNeuroNet : ANNAirPressure - Aborted train because of invalid input-values or expected outputValues. (Probably empty vectors or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-20:08:40 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-20:08:40 - ERROR     - ArtificialNeuroNet : test ann - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-20:08:40 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-20:08:40 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-20:08:40 - ERROR     - ArtificialNeuroNet : test ann - Aborted train because of invalid input-values or expected outputValues. (Probably empty vectors or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-20:08:40 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-20:08:40 - INFO      - ArtificialNeuroNet : test ann - successfully trained artificial neural net with 1 training samples.
+15/08/16-20:10:29 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-20:10:29 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-20:10:29 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-20:10:29 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-20:10:30 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-20:10:30 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-20:10:30 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-20:10:30 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-20:10:30 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 1 training samples.
+15/08/16-20:10:30 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 1 training samples.
+15/08/16-20:10:30 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-20:10:30 - ERROR     - ArtificialNeuroNet : test ann - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-20:10:30 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-20:10:30 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-20:10:30 - ERROR     - ArtificialNeuroNet : test ann - Aborted train because of invalid input-values or expected outputValues. (Probably empty vectors or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-20:10:30 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-20:10:30 - INFO      - ArtificialNeuroNet : test ann - successfully trained artificial neural net with 1 training samples.
+15/08/16-20:11:34 - INFO      - DBInterface - Initialized DBInterface with url : http://localhost:8086.
+15/08/16-20:11:34 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-20:11:34 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-20:11:34 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-20:11:34 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-20:11:34 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-20:11:34 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-20:11:34 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-20:11:34 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 1 training samples.
+15/08/16-20:11:34 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 1 training samples.
+15/08/16-20:11:34 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-20:11:34 - ERROR     - ArtificialNeuroNet : test ann - Aborted forward because of invalid input-values. (Probably empty vector or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-20:11:35 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-20:11:35 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-20:11:35 - ERROR     - ArtificialNeuroNet : test ann - Aborted train because of invalid input-values or expected outputValues. (Probably empty vectors or values out of range [INFLUXDB_MIN..INFLUXDB_MAX]
+15/08/16-20:11:35 - INFO      - ArtificialNeuroNet : test ann - Initialized ArtificialNeuroNet with name of test ann.
+15/08/16-20:11:35 - INFO      - ArtificialNeuroNet : test ann - successfully trained artificial neural net with 1 training samples.

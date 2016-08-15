@@ -18,7 +18,7 @@ CXXFLAGS      = -m64 -pipe -g -std=c++0x -Wall -W -D_REENTRANT -fPIE $(DEFINES)
 INCPATH       = -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I../ArtificialNeuroNet_Wrapper -I../ArtificialNeuroNet_Wrapper/include -I../include/ -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I.
 LINK          = g++
 LFLAGS        = -m64
-LIBS          = $(SUBLIBS) -lQt5Core -lpthread 
+LIBS          = $(SUBLIBS) -lcurl -lQt5Core -lpthread 
 AR            = ar cqs
 RANLIB        = 
 QMAKE         = /usr/lib/x86_64-linux-gnu/qt5/bin/qmake
@@ -45,18 +45,24 @@ OBJECTS_DIR   = ./
 
 ####### Files
 
-SOURCES       = ../ArtificialNeuroNet_Wrapper/main.cpp \
-		../ArtificialNeuroNet_Wrapper/src/DataBuffer.cpp \
+SOURCES       = ../ArtificialNeuroNet_Wrapper/src/DataBuffer.cpp \
 		../ArtificialNeuroNet_Wrapper/src/ArtificialNeuroNet.cpp \
 		../ArtificialNeuroNet_Wrapper/src/ANNWrapper.cpp \
 		../ArtificialNeuroNet_Wrapper/src/LogWriter.cpp \
-		../ArtificialNeuroNet_Wrapper/src/SLevel.cpp 
-OBJECTS       = main.o \
-		DataBuffer.o \
+		../ArtificialNeuroNet_Wrapper/src/SLevel.cpp \
+		../ArtificialNeuroNet_Wrapper/test/main.cpp \
+		../ArtificialNeuroNet_Wrapper/main_old.cpp \
+		../ArtificialNeuroNet_Wrapper/src/DBInterface.cpp \
+		../ArtificialNeuroNet_Wrapper/src/HTTPRequest.cpp 
+OBJECTS       = DataBuffer.o \
 		ArtificialNeuroNet.o \
 		ANNWrapper.o \
 		LogWriter.o \
-		SLevel.o
+		SLevel.o \
+		main.o \
+		main_old.o \
+		DBInterface.o \
+		HTTPRequest.o
 DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/shell-unix.conf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/unix.conf \
@@ -114,12 +120,15 @@ DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/exceptions.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/yacc.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/lex.prf \
-		../ArtificialNeuroNet_Wrapper/ArtificialNeuroNet_Wrapper.pro ../ArtificialNeuroNet_Wrapper/main.cpp \
-		../ArtificialNeuroNet_Wrapper/src/DataBuffer.cpp \
+		../ArtificialNeuroNet_Wrapper/ArtificialNeuroNet_Wrapper.pro ../ArtificialNeuroNet_Wrapper/src/DataBuffer.cpp \
 		../ArtificialNeuroNet_Wrapper/src/ArtificialNeuroNet.cpp \
 		../ArtificialNeuroNet_Wrapper/src/ANNWrapper.cpp \
 		../ArtificialNeuroNet_Wrapper/src/LogWriter.cpp \
-		../ArtificialNeuroNet_Wrapper/src/SLevel.cpp
+		../ArtificialNeuroNet_Wrapper/src/SLevel.cpp \
+		../ArtificialNeuroNet_Wrapper/test/main.cpp \
+		../ArtificialNeuroNet_Wrapper/main_old.cpp \
+		../ArtificialNeuroNet_Wrapper/src/DBInterface.cpp \
+		../ArtificialNeuroNet_Wrapper/src/HTTPRequest.cpp
 QMAKE_TARGET  = ArtificialNeuroNet_Wrapper
 DESTDIR       = #avoid trailing-slash linebreak
 TARGET        = ArtificialNeuroNet_Wrapper
@@ -278,7 +287,7 @@ qmake_all: FORCE
 
 dist: 
 	@test -d .tmp/ArtificialNeuroNet_Wrapper1.0.0 || mkdir -p .tmp/ArtificialNeuroNet_Wrapper1.0.0
-	$(COPY_FILE) --parents $(DIST) .tmp/ArtificialNeuroNet_Wrapper1.0.0/ && $(COPY_FILE) --parents ../ArtificialNeuroNet_Wrapper/include/DataBuffer.h ../ArtificialNeuroNet_Wrapper/include/ArtificialNeuroNet.h ../ArtificialNeuroNet_Wrapper/include/ANNWrapper.h ../ArtificialNeuroNet_Wrapper/include/Config.h ../ArtificialNeuroNet_Wrapper/include/LogWriter.h ../ArtificialNeuroNet_Wrapper/include/SLevel.h .tmp/ArtificialNeuroNet_Wrapper1.0.0/ && $(COPY_FILE) --parents ../ArtificialNeuroNet_Wrapper/main.cpp ../ArtificialNeuroNet_Wrapper/src/DataBuffer.cpp ../ArtificialNeuroNet_Wrapper/src/ArtificialNeuroNet.cpp ../ArtificialNeuroNet_Wrapper/src/ANNWrapper.cpp ../ArtificialNeuroNet_Wrapper/src/LogWriter.cpp ../ArtificialNeuroNet_Wrapper/src/SLevel.cpp .tmp/ArtificialNeuroNet_Wrapper1.0.0/ && (cd `dirname .tmp/ArtificialNeuroNet_Wrapper1.0.0` && $(TAR) ArtificialNeuroNet_Wrapper1.0.0.tar ArtificialNeuroNet_Wrapper1.0.0 && $(COMPRESS) ArtificialNeuroNet_Wrapper1.0.0.tar) && $(MOVE) `dirname .tmp/ArtificialNeuroNet_Wrapper1.0.0`/ArtificialNeuroNet_Wrapper1.0.0.tar.gz . && $(DEL_FILE) -r .tmp/ArtificialNeuroNet_Wrapper1.0.0
+	$(COPY_FILE) --parents $(DIST) .tmp/ArtificialNeuroNet_Wrapper1.0.0/ && $(COPY_FILE) --parents ../ArtificialNeuroNet_Wrapper/include/DataBuffer.h ../ArtificialNeuroNet_Wrapper/include/ArtificialNeuroNet.h ../ArtificialNeuroNet_Wrapper/include/ANNWrapper.h ../ArtificialNeuroNet_Wrapper/include/Config.h ../ArtificialNeuroNet_Wrapper/include/LogWriter.h ../ArtificialNeuroNet_Wrapper/include/SLevel.h ../ArtificialNeuroNet_Wrapper/include/catch.hpp ../ArtificialNeuroNet_Wrapper/include/DBInterface.h ../ArtificialNeuroNet_Wrapper/include/HTTPRequest.h .tmp/ArtificialNeuroNet_Wrapper1.0.0/ && $(COPY_FILE) --parents ../ArtificialNeuroNet_Wrapper/src/DataBuffer.cpp ../ArtificialNeuroNet_Wrapper/src/ArtificialNeuroNet.cpp ../ArtificialNeuroNet_Wrapper/src/ANNWrapper.cpp ../ArtificialNeuroNet_Wrapper/src/LogWriter.cpp ../ArtificialNeuroNet_Wrapper/src/SLevel.cpp ../ArtificialNeuroNet_Wrapper/test/main.cpp ../ArtificialNeuroNet_Wrapper/main_old.cpp ../ArtificialNeuroNet_Wrapper/src/DBInterface.cpp ../ArtificialNeuroNet_Wrapper/src/HTTPRequest.cpp .tmp/ArtificialNeuroNet_Wrapper1.0.0/ && (cd `dirname .tmp/ArtificialNeuroNet_Wrapper1.0.0` && $(TAR) ArtificialNeuroNet_Wrapper1.0.0.tar ArtificialNeuroNet_Wrapper1.0.0 && $(COMPRESS) ArtificialNeuroNet_Wrapper1.0.0.tar) && $(MOVE) `dirname .tmp/ArtificialNeuroNet_Wrapper1.0.0`/ArtificialNeuroNet_Wrapper1.0.0.tar.gz . && $(DEL_FILE) -r .tmp/ArtificialNeuroNet_Wrapper1.0.0
 
 
 clean:compiler_clean 
@@ -315,20 +324,21 @@ compiler_clean:
 
 ####### Compile
 
-main.o: ../ArtificialNeuroNet_Wrapper/main.cpp ../ArtificialNeuroNet_Wrapper/include/ANNWrapper.h \
-		../ArtificialNeuroNet_Wrapper/include/DataBuffer.h \
-		../ArtificialNeuroNet_Wrapper/include/ArtificialNeuroNet.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../ArtificialNeuroNet_Wrapper/main.cpp
-
 DataBuffer.o: ../ArtificialNeuroNet_Wrapper/src/DataBuffer.cpp ../ArtificialNeuroNet_Wrapper/include/DataBuffer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o DataBuffer.o ../ArtificialNeuroNet_Wrapper/src/DataBuffer.cpp
 
-ArtificialNeuroNet.o: ../ArtificialNeuroNet_Wrapper/src/ArtificialNeuroNet.cpp ../ArtificialNeuroNet_Wrapper/include/ArtificialNeuroNet.h
+ArtificialNeuroNet.o: ../ArtificialNeuroNet_Wrapper/src/ArtificialNeuroNet.cpp ../ArtificialNeuroNet_Wrapper/include/ArtificialNeuroNet.h \
+		../ArtificialNeuroNet_Wrapper/include/Config.h \
+		../ArtificialNeuroNet_Wrapper/include/LogWriter.h \
+		../ArtificialNeuroNet_Wrapper/include/SLevel.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o ArtificialNeuroNet.o ../ArtificialNeuroNet_Wrapper/src/ArtificialNeuroNet.cpp
 
 ANNWrapper.o: ../ArtificialNeuroNet_Wrapper/src/ANNWrapper.cpp ../ArtificialNeuroNet_Wrapper/include/ANNWrapper.h \
 		../ArtificialNeuroNet_Wrapper/include/DataBuffer.h \
-		../ArtificialNeuroNet_Wrapper/include/ArtificialNeuroNet.h
+		../ArtificialNeuroNet_Wrapper/include/ArtificialNeuroNet.h \
+		../ArtificialNeuroNet_Wrapper/include/Config.h \
+		../ArtificialNeuroNet_Wrapper/include/LogWriter.h \
+		../ArtificialNeuroNet_Wrapper/include/SLevel.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o ANNWrapper.o ../ArtificialNeuroNet_Wrapper/src/ANNWrapper.cpp
 
 LogWriter.o: ../ArtificialNeuroNet_Wrapper/src/LogWriter.cpp ../ArtificialNeuroNet_Wrapper/include/LogWriter.h \
@@ -338,6 +348,39 @@ LogWriter.o: ../ArtificialNeuroNet_Wrapper/src/LogWriter.cpp ../ArtificialNeuroN
 SLevel.o: ../ArtificialNeuroNet_Wrapper/src/SLevel.cpp ../ArtificialNeuroNet_Wrapper/include/SLevel.h \
 		../ArtificialNeuroNet_Wrapper/include/LogWriter.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o SLevel.o ../ArtificialNeuroNet_Wrapper/src/SLevel.cpp
+
+main.o: ../ArtificialNeuroNet_Wrapper/test/main.cpp ../ArtificialNeuroNet_Wrapper/include/catch.hpp \
+		../ArtificialNeuroNet_Wrapper/include/ANNWrapper.h \
+		../ArtificialNeuroNet_Wrapper/include/DataBuffer.h \
+		../ArtificialNeuroNet_Wrapper/include/ArtificialNeuroNet.h \
+		../ArtificialNeuroNet_Wrapper/include/Config.h \
+		../ArtificialNeuroNet_Wrapper/include/LogWriter.h \
+		../ArtificialNeuroNet_Wrapper/include/SLevel.h \
+		../ArtificialNeuroNet_Wrapper/include/DBInterface.h \
+		../ArtificialNeuroNet_Wrapper/include/HTTPRequest.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../ArtificialNeuroNet_Wrapper/test/main.cpp
+
+main_old.o: ../ArtificialNeuroNet_Wrapper/main_old.cpp ../ArtificialNeuroNet_Wrapper/include/ANNWrapper.h \
+		../ArtificialNeuroNet_Wrapper/include/DataBuffer.h \
+		../ArtificialNeuroNet_Wrapper/include/ArtificialNeuroNet.h \
+		../ArtificialNeuroNet_Wrapper/include/Config.h \
+		../ArtificialNeuroNet_Wrapper/include/LogWriter.h \
+		../ArtificialNeuroNet_Wrapper/include/SLevel.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main_old.o ../ArtificialNeuroNet_Wrapper/main_old.cpp
+
+DBInterface.o: ../ArtificialNeuroNet_Wrapper/src/DBInterface.cpp ../ArtificialNeuroNet_Wrapper/include/DBInterface.h \
+		../ArtificialNeuroNet_Wrapper/include/DataBuffer.h \
+		../ArtificialNeuroNet_Wrapper/include/Config.h \
+		../ArtificialNeuroNet_Wrapper/include/LogWriter.h \
+		../ArtificialNeuroNet_Wrapper/include/SLevel.h \
+		../ArtificialNeuroNet_Wrapper/include/HTTPRequest.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o DBInterface.o ../ArtificialNeuroNet_Wrapper/src/DBInterface.cpp
+
+HTTPRequest.o: ../ArtificialNeuroNet_Wrapper/src/HTTPRequest.cpp ../ArtificialNeuroNet_Wrapper/include/HTTPRequest.h \
+		../ArtificialNeuroNet_Wrapper/include/LogWriter.h \
+		../ArtificialNeuroNet_Wrapper/include/SLevel.h \
+		../ArtificialNeuroNet_Wrapper/include/Config.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o HTTPRequest.o ../ArtificialNeuroNet_Wrapper/src/HTTPRequest.cpp
 
 ####### Install
 

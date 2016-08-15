@@ -6,7 +6,7 @@
  * @version 1.0 20160629
  */
 
-#include "SLevel.h"
+#include "../include/SLevel.h"
 
 /**
  * SLevel::severityLevelToString
