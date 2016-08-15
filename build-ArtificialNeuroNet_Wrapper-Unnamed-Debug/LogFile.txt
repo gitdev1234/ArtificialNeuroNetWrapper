@@ -10,3 +10,9 @@
 13/08/16-13:23:54 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
 13/08/16-13:23:54 - INFO      - ArtificialNeuroNet : AirTemperature2MForecast - successfully trained artificial neural net with 0 training samples.
 13/08/16-13:23:54 - INFO      - ArtificialNeuroNet : Humidity2MForecast - successfully trained artificial neural net with 0 training samples.
+15/08/16-13:41:27 - INFO      - ANNWrapper - Initialized ANNWrapper
+15/08/16-13:41:27 - INFO      - ArtificialNeuroNet : ANNTemperature - Initialized ArtificialNeuroNet with name of ANNTemperature.
+15/08/16-13:41:27 - INFO      - ArtificialNeuroNet : ANNAirPressure - Initialized ArtificialNeuroNet with name of ANNAirPressure.
+15/08/16-13:41:27 - INFO      - ANNWrapper - Successfully trained Artificial Neuro Net for Temperature 2m
+15/08/16-13:41:27 - INFO      - ArtificialNeuroNet : ANNTemperature - successfully trained artificial neural net with 0 training samples.
+15/08/16-13:41:27 - INFO      - ArtificialNeuroNet : ANNAirPressure - successfully trained artificial neural net with 0 training samples.
